@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:background="@drawable/custom_background_banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/background_banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <RelativeLayout
+        android:id="@+id/relative_bannerline"
+        android:layout_alignBottom="@id/background_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagev_banner"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <TextView
+            android:id="@+id/txt_title_banner"
+            android:text="@string/noi_nay_co_anh"
+            android:textColor="@color/whitecolor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imagev_banner"
+            android:layout_alignTop="@+id/imagev_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imagev_banner"
+            android:layout_below="@id/txt_title_banner"
+            android:layout_marginTop="7dp">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dmasdkashfasvk"
+                android:textSize="12sp"
+                android:layout_marginEnd="40dp"
+                android:maxLines="2"
+                android:textStyle="italic"
+                android:textColor="@color/textcolor_banner"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

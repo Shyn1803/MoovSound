@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/TimKiem"
+            android:id="@+id/timkiem_id"
+            android:icon="@drawable/ic_search_48px"/>
+        <item
+            android:title="@string/TrangChu"
+            android:id="@+id/trangchu_id"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:title="@string/PlayList"
+            android:id="@+id/playlist_id"
+            android:icon="@drawable/playlist"/>
+        <item
+            android:title="@string/Album"
+            android:id="@+id/album_id"
+            android:icon="@drawable/album"/>
+    </group>
+
+    <group>
+        <item android:title="@string/AdvanceOption">
+            <menu>
+                <item
+                    android:title="@string/Setting"
+                    android:id="@+id/setting_id"
+                    android:icon="@drawable/setting"/>
+                <item
+                    android:title="@string/Info"
+                    android:id="@+id/info_id"
+                    android:icon="@drawable/info"/>
+            </menu>
+        </item>
+    </group>
+</menu>

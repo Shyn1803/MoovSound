@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BEES</string>
+    <string name="TimKiem">Tìm kiếm</string>
+    <string name="TrangChu">Trang chủ</string>
+    <string name="PlayList">Playlist</string>
+    <string name="Album">Album</string>
+    <string name="CaSi">Ca sĩ</string>
+    <string name="AdvanceOption">Advance Option</string>
+    <string name="Setting">Cài đặt</string>
+    <string name="Info">Thông tin</string>
+    <string name="OpenDrawer">Open Drawer</string>
+    <string name="CloseDrawer">Close Drawer</string>
+    <string name="noi_nay_co_anh">Noi nay co anh</string>
+    <string name="asa">asa</string>
+    <string name="todo">TODO</string>
+    <string name="dmasdkashfasvk">dmasdkashfasvk</string>
+    <string name="XemThem">Xem thêm</string>
+</resources>

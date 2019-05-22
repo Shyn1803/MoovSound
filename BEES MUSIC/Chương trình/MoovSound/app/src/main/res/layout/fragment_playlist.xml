@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    
+    <TextView
+        android:id="@+id/txt_title_playlist"
+        android:text="GIAI ĐIỆU ÂM NHẠC"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/listviewplaylist"
+        android:layout_below="@+id/txt_title_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+    </ListView>
+
+    <TextView
+        android:layout_below="@id/listviewplaylist"
+        android:id="@+id/txt_moreplaylist"
+        android:background="@color/whitecolor"
+        android:drawablePadding="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="@string/XemThem"
+        android:textColor="#60ffbb"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

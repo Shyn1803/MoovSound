@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/linear_cardview_album"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagev_albumline"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+        <TextView
+            android:id="@+id/txt_tenalbum"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:maxWidth="140dp"
+            android:text="Ngày Xuân Long Phụng Sum Vầy"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:textColor="@color/tenalbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_tencasialbum"
+            android:maxLines="1"
+            android:maxWidth="140dp"
+            android:ellipsize="end"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:text="The Men"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:textColor="@color/casialbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

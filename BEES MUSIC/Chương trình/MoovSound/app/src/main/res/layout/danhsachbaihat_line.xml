@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:elevation="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+        <TextView
+            android:id="@+id/txt_danhsach_index"
+            android:text="1"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:textColor="@color/casialbum"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_tenbaihat_danhsachbaihatline"
+            android:layout_toEndOf="@id/txt_danhsach_index"
+            android:singleLine="true"
+            android:maxWidth="240dp"
+            android:text="We Don't Talk Anymore"
+            android:textColor="@color/tenalbum"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_tencasi_danhsachbaihatline"
+            android:layout_toEndOf="@id/txt_danhsach_index"
+            android:layout_below="@id/txt_tenbaihat_danhsachbaihatline"
+            android:singleLine="true"
+            android:maxWidth="240dp"
+            android:text="Charlie Puth, Selena Gomez"
+            android:textColor="@color/casialbum"
+            android:textSize="12sp"
+            android:gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+        <ImageView
+            android:id="@+id/imagev_heart_danhsachbaihatline"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/iconlove"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

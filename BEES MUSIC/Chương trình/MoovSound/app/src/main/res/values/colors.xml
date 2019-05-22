@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#05ce8b</color>
+    <color name="colorPrimaryDark">#009c5d</color>
+    <color name="colorAccent">#eab71f</color>
+
+    <color name="starcolor">#55ffe8</color>
+    <color name="endcolor">#015318</color>
+    <color name="whitecolor">#ffffff</color>
+    <color name="textcolor_banner">#dcbd0c</color>
+    <color name="titlecolor">#1b1b1b</color>
+    <color name="xemthem">#60ffbb</color>
+    <color name="casialbum">#5e5e5e</color>
+    <color name="tenalbum">#0d0d0d</color>
+    <color name="casilight">#c7c7c7</color>
+    <color name="tenbaihatlight">#f7f7f7</color>
+    <color name="mautim">#E543E5</color>
+</resources>
